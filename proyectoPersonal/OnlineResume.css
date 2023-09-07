@@ -80,3 +80,49 @@ nav{
 .btn:hover{
   background-color: rgb(103, 77, 219);
 }
+
+.container{
+  max-width: 1200px;
+  margin: auto;
+  padding: 5rem 2rem;
+}
+
+.blur{
+  position: absolute;
+  box-shadow: 0 0 1000px 50px rgb(133, 110, 238);
+  z-index: -100;
+}
+
+header{
+  position: relative;
+  padding-top: 2rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+header .content h4{
+  margin-bottom: 1rem;
+  color: #ccc;
+  font-size: 1rem;
+  font-weight: 600;
+
+}
+
+header .content h1{
+  color: #fff;
+  margin-bottom: 1rem;
+  font-size: 3rem;
+  font-weight: 700;
+  line-height: 4rem;
+
+}
+
+header .content h1 span{
+
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 1px #fff;
+  -webkit-text-stroke-color: rgb(133, 110, 238);
+}
+
