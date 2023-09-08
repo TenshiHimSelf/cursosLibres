@@ -63,7 +63,28 @@ nav{
   transition: all 0.3s ease;
 }
 
+
 .link a:hover::after{
+  width: 70%;
+}
+
+.container h1{
+	position: relative;
+  padding-bottom: 0.75rem ;
+  color: #fff;
+}
+
+.container h1::after{
+  content: "";
+  position: absolute;
+  height: 2px;
+  width: 0px;
+  bottom: 0;
+  left: 0;
+  background-color:  rgb(125, 104, 218);
+  transition: all 0.3s ease;
+}
+.container h1:hover::after{
   width: 70%;
 }
 
@@ -121,7 +142,7 @@ header .content h1{
 
 header .content h1 span{
 
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: #070606;
   -webkit-text-stroke: 1px #fff;
   -webkit-text-stroke-color: rgb(133, 110, 238);
 }
